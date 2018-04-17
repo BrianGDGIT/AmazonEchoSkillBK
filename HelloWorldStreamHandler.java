@@ -25,6 +25,8 @@ import com.amazon.ask.helloworld.handlers.getHotSHeroRandomIntentHandler;
 import com.amazon.ask.helloworld.handlers.getWhoLovesDeniseIntentHandler;
 import com.amazon.ask.helloworld.handlers.getJakeInformationIntentHandler;
 import com.amazon.ask.helloworld.handlers.getKatieInformation;
+import com.amazon.ask.helloworld.handlers.getMaster;
+import com.amazon.ask.helloworld.handlers.getDenise;
 
 public class HelloWorldStreamHandler extends SkillStreamHandler {
 
@@ -35,6 +37,8 @@ public class HelloWorldStreamHandler extends SkillStreamHandler {
                         new getWhoLovesDeniseIntentHandler(),
                         new getJakeInformationIntentHandler(),
                         new getKatieInformation(),
+                        new getMaster(),
+                        new getDenise(),
                         new CancelandStopIntentHandler(),
                         new HelpIntentHandler(),
                         new LaunchRequestHandler(),
